@@ -1,0 +1,90 @@
+label{
+     color: grey;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: medium;
+     margin-left: 30px;
+     color: black;
+     font-weight: bold;
+}
+input[type=text]{
+    width: 250px;
+    height: 25px;
+    position: relative;
+    border: none;
+    margin-left: 30px;
+    border-radius: 5PX;
+    background-color: lightgrey;
+}
+input:hover{
+    background-color: violet;
+}
+
+form{
+    margin-top: 150px;
+    margin-left: 440px;
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 0;
+    background-image: url(tur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    position: relative;
+    left: 150px;
+    color: blue;
+    top: 20px;
+}
+input[type=submit]{
+    width: 250px;
+    height: 30px;
+    margin-left: 130px;
+    cursor: pointer;
+    left: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}
+input[type=checkbox]{
+    margin-left: 32px;
+}
+a{
+    color: blue;
+    cursor: pointer;
+    margin-left: 370px;
+    font-weight: bold;
+}
+.bike{
+    position: relative;
+    right: 30px;
+}
+.motor{
+    position: relative;
+    right: 350px;
+}
+input[type=submit]:hover{
+  background-color: violet;
+}
+
+body{
+    background-color: blue;
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin-left: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.red{
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    position: relative;
+    bottom: 76px;
+    left: 60px;
+    cursor: pointer;
+}
